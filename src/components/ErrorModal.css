@@ -1,0 +1,56 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: #313438;
+}
+.modal {
+    position: fixed;
+    padding: 20px;
+    top: 30vh;
+    left: 10%;
+    width: 80%;
+    z-index: 100;
+    overflow: hidden;
+    background: linear-gradient(
+    90deg,
+    rgb(107, 56, 209) 0%,
+    rgb(182, 153, 201) 100%
+  );
+    box-shadow: 0px 0px 20px 5px;
+}
+.header {
+    background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+    padding: 1rem;
+    border-radius: 0px 17px 0px 17px;
+   
+}
+.header h2 {
+    margin: 0;
+    color: white;
+   font-size: 30px;
+}
+.content {
+    padding: 1rem;
+    color: linen;
+    font-size: 25px;
+}
+.actions {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+
+}
+@media (min-width: 768px) {
+    .modal {
+        left: calc(50% - 20rem);
+        width: 40rem;
+    }
+}
