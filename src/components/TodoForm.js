@@ -17,7 +17,7 @@ const TodoForm = () => {
 	}
 	const keyPressHandler = (e) => {
 		if (e.key === 'Enter') {
-			submitChangeHadler()
+			submitChangeHadler(e)
 		}
 	}
 	return (

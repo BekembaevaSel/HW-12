@@ -13,7 +13,7 @@ const TodoContextProvider = (props) => {
 	const [error, setError] = useState(false)
 	const [state, dispatch] = useReducer(
 		Reduser,
-		JSON.parse(localStorage.getItem('todos')),
+		JSON.parse(localStorage.getItem('todos')) || [],
 	)
 
 	useEffect(() => {
