@@ -1,72 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=IBM+Plex+Sans+Thai+Looped&family=Poppins:ital,wght@1,300&display=swap');
+* {
+	font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
 .App {
-  text-align: center;
+	text-align: center;
 }
 
 .App .item-todo {
-  padding: 20px;
-  width: 600px;
-  margin: 0 auto;
-  text-align: left;
-  margin-top: 20px;
-  background: linear-gradient(
-    90deg,
-    rgba(93, 12, 255, 1) 0%,
-    rgb(175, 132, 202) 100%
-  );
-  color: rgb(245, 237, 237);
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
+	padding: 20px;
+	width: 600px;
+	margin: 0 auto;
+	text-align: left;
+	margin-top: 20px;
+	background: linear-gradient(
+		90deg,
+		rgba(93, 12, 255, 1) 0%,
+		rgb(175, 132, 202) 100%
+	);
+	color: rgb(245, 237, 237);
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
 }
 
 .App .item-todo .item-text {
-  display: inline-block;
-  cursor: pointer;
+	display: inline-block;
+	cursor: pointer;
 }
 
 .App input {
-  width: 400px;
-  padding: 14px 32px 14px 16px;
-  border-radius: 4px 4px 4px 4px;
-  border: 2px solid #5d0cff;
-  outline: none;
-  background: transparent;
-  font-size: 20px;
+	width: 400px;
+	padding: 14px 32px 14px 16px;
+	border-radius: 4px 4px 4px 4px;
+	border: 2px solid #5d0cff;
+	outline: none;
+	background: transparent;
+	font-size: 20px;
 }
 
 .App button {
-  margin: 40px;
-  width: 60px;
-  height: 40px;
-  border: none;
-  border-radius: 7px 15px 7px 15px;
-  cursor: pointer;
-  outline: none;
-  background: linear-gradient(
-    90deg,
-    rgba(93, 12, 255, 1) 0%,
-    rgba(155, 0, 250, 1) 100%
-  );
-  color: #fff;
-  text-transform: capitalize;
+	margin: 40px;
+	width: 60px;
+	height: 40px;
+	border: none;
+	border-radius: 7px 15px 7px 15px;
+	cursor: pointer;
+	outline: none;
+	background: linear-gradient(
+		90deg,
+		rgba(93, 12, 255, 1) 0%,
+		rgba(155, 0, 250, 1) 100%
+	);
+	color: #fff;
+	text-transform: capitalize;
 }
 
 .App .item-todo .item-delete {
-  /* display: inline-block; */
-  cursor: pointer;
-  /* float: right; */
-  font-size: 30px;
-  position: relative;
-  left: -4px;
-  bottom: 5px;
+	/* display: inline-block; */
+	cursor: pointer;
+	/* float: right; */
+	font-size: 30px;
+	position: relative;
+	left: -4px;
+	bottom: 5px;
 }
 
 .strike {
-  text-decoration: line-through;
+	text-decoration: line-through;
 }
 
-.App h1{
-  font-size: 60px;
-  color:darkslategray;
-
+.App h1 {
+	font-size: 60px;
+	color: darkslategray;
 }

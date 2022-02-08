@@ -1,11 +1,15 @@
+import { useContext } from 'react'
+import { TodoContext } from './Context'
 import './Todo.css'
-const Todo = ({ todo, dispatch }) => {
+
+const Todo = ({ todo }) => {
+	const ctxData = useContext(TodoContext)
 	return (
 		<div key={todo.id} className='item-todo'>
 			<div
 				className={todo.complete ? 'item-text strike' : 'item-text'}
 				onClick={() =>
-					dispatch({
+					ctxData.dispatch({
 						type: 'TOOGLE',
 						payload: todo.id,
 					})
@@ -15,7 +19,7 @@ const Todo = ({ todo, dispatch }) => {
 			</div>
 			<div
 				onClick={() =>
-					dispatch({
+					ctxData.dispatch({
 						type: 'REMOVE',
 						payload: todo.id,
 					})

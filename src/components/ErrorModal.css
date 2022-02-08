@@ -32,6 +32,22 @@
     border-radius: 0px 17px 0px 17px;
    
 }
+.modal_button {
+    margin: 40px;
+	width: 60px;
+	height: 40px;
+	border: none;
+	border-radius: 7px 15px 7px 15px;
+	cursor: pointer;
+	outline: none;
+	background: linear-gradient(
+		90deg,
+		rgba(93, 12, 255, 1) 0%,
+		rgba(155, 0, 250, 1) 100%
+	);
+	color: #fff;
+	text-transform: capitalize;
+}
 .header h2 {
     margin: 0;
     color: white;
